@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+.busca-clima {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#cidadeInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#buscarBtn {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#buscarBtn:hover {
+    background-color: #45a049;
+}
+
+.resultado-clima {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    min-height: 80px; /* Para manter um espaço mesmo vazio */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado-clima p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.resultado-clima strong {
+    color: #2e7d32;
+}
+
+.mensagem-erro {
+    color: #d32f2f;
+    background-color: #ffebee;
+    border: 1px solid #ef9a9a;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 0.9em;
+    display: none; /* Inicia oculto, será exibido via JS se houver erro */
+}
