@@ -19,8 +19,9 @@ Responsivo: Design básico que se adapta a diferentes tamanhos de tela (requer e
 1. Clone ou Baixe o Projeto:
 
 Bash
-git clone [LINK_DO_SEU_REPOSITORIO_AQUI]
+git clone [https://github.com/159753marcelo/APP-DO-TEMPO.git]
 cd AppClima
+
 (Se você não usa Git, apenas baixe os arquivos e descompacte a pasta AppClima.)
 
 2. Obtenha sua Chave da API OpenWeatherMap:
