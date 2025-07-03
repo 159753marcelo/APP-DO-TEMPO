@@ -86,4 +86,6 @@ Como usar:
 
 2. Copie e cole o conteúdo acima neste novo arquivo.
 
-3. Lembre-se de substituir [LINK_DO_SEU_REPOSITORIO_AQUI] pelo link real do seu repositório Git, caso você o tenha hospedado no GitHub, GitLab, etc.
+3. Lembre-se de substituir [https://github.com/159753marcelo/APP-DO-TEMPO.git] 
+
+pelo link real do seu repositório Git, caso você o tenha hospedado no GitHub, GitLab, etc.
